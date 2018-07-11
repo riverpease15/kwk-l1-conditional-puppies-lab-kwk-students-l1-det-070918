@@ -12,11 +12,11 @@ end
 
 def less_puppies(number_of_pups)
   if number_of_pups < 3
-    puts ""
+    puts "good job"
   elsif number_of_pups == 3
     puts "slow down"
   else
-    puts "Get back on your animal restriction!"
+    puts "get back to your animal goals"
   end
 end
 
@@ -25,9 +25,9 @@ end
 
 def some_puppies(number_of_pups, max_pups)
   if max_pups % 2 < number_of_pups
-    puts "Good job!"
+    puts "good job"
   else
-    puts "Get back on your puppy restriction."
+    puts "get back to your animal goals"
   end
 end
 
